@@ -1,6 +1,7 @@
 class CoinsController < ApplicationController
   layout "adm"
-  
+
+  # fluxo mvc, antes de executar as acoes passadas como parametro ele vai setar a coin
   before_action :set_coin, only: %i[ show edit update destroy ]
 
   # GET /coins or /coins.json
