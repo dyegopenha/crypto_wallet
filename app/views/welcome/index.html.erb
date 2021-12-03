@@ -8,4 +8,10 @@
 
 <% x = "minha variavel X" %>
 <p>Imprimindo a variavel x: <%= x %></p>
-<p>A data de hoje eh: <%= Date.today %></p>
+<p>A data de hoje eh: <%= data_br(Date.today) %></p>
+
+<ul>
+    <li>
+        <%= link_to "Cadastro de Moedas", "/coins" %>
+    </li>
+</ul>
