@@ -1,5 +1,6 @@
 <h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+
+<%= render "menu" %>
 
 <p>Dyego Penha</p>
 
@@ -9,12 +10,6 @@
 <% x = "minha variavel X" %>
 <p>Imprimindo a variavel x: <%= x %></p>
 <p>A data de hoje eh: <%= data_br(Date.today) %></p>
-
-<ul>
-    <li>
-        <%= link_to "Cadastro de Moedas", "/coins" %>
-    </li>
-</ul>
 
 <p>
 Voce esta em ambiente de <strong><%= ambiente_rails %></strong>
