@@ -30,8 +30,8 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  hello: Hello world
   links:
-    edit: "Edit"
-    show: "Show"
-    delete: "Delete"
+    edit: Edit
+    show: Show
+    delete: Delete
