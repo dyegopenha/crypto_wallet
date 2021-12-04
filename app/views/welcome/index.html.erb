@@ -1,7 +1,7 @@
 <h1>Welcome#index</h1>
-<p>O idioma usado nessa aplicacao eh: <strong><%= locale %></strong></p>
-<p><strong>Data:</strong> <%= I18n.l(Date.today) %></p>
-<p><%= I18n.t('hello') %></p>
+<p>O idioma usado nessa aplicacao eh: <strong><%= t('actual_locale') %></strong></p>
+<p><strong>Data:</strong> <%= l(Date.today) %></p>
+<p><%= t('hello') %></p>
 
 <%= render "menu" %>
 
