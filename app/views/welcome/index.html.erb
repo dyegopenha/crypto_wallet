@@ -1,15 +1,9 @@
 <h1>Welcome#index</h1>
-<p>O idioma usado nessa aplicacao eh: <strong><%= locale(I18n.locale) %></strong></p>
+<p>O idioma usado nessa aplicacao eh: <strong><%= locale %></strong></p>
+<p><strong>Data:</strong> <%= I18n.l(Date.today) %></p>
+<p><%= I18n.t('hello') %></p>
+
 <%= render "menu" %>
-
-<p>Dyego Penha</p>
-
-<p>A soma eh <%= 1 + 1 %></p>
-<p>Seu nome de tras para frente eh: <%= "Dyego".reverse %></p>
-
-<% x = "minha variavel X" %>
-<p>Imprimindo a variavel x: <%= x %></p>
-<p>A data de hoje eh: <%= data_br(Date.today) %></p>
 
 <p>
 Voce esta em ambiente de <strong><%= ambiente_rails %></strong>
